@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6fb;
+  margin: 0;
+}
+
+/* HEADER */
+.header {
+  background: linear-gradient(135deg, #5f7cff, #7c8dff);
+  padding: 25px;
+  text-align: center;
+}
+
+.header h1 {
+  margin-bottom: 15px;
+}
+
+.header input {
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  width: 180px;
+}
+
+.header button {
+  padding: 8px 12px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #ffffff;
+  font-weight: bold;
+}
+
+/* LISTA */
+main {
+  padding: 20px;
+}
+
+/* CARD DA TRICK */
+section {
+  background: white;
+  margin: 15px auto;
+  padding: 15px;
+  width: 320px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+section h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+/* INFO */
+section p {
+  margin: 8px 0;
+}
+
+/* BOTÕES */
+.botoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.botoes button {
+  flex: 1;
+  padding: 6px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+/* cores dos botões */
+.botoes button:nth-child(1) { background: #4caf50; color: white; } /* acerto */
+.botoes button:nth-child(2) { background: #f44336; color: white; } /* erro */
+.botoes button:nth-child(3) { background: #ff9800; color: white; } /* reset */
+.botoes button:nth-child(4) { background: #9e9e9e; color: white; } /* remover */
+
+/* MOTIVAÇÃO */
+.motivacao {
+  margin-top: 12px;
+  font-style: italic;
+  color: #555;
+  border-top: 1px solid #eee;
+  padding-top: 8px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 15px;
+  font-size: 0.8rem;
+  color: #666;
+}
+
